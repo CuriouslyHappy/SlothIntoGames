@@ -2,50 +2,13 @@ body {
   background-color: black;
 }
 
+/********************************************************/
+  /* PAGE TOP */
+
 #title {
   color: #B600FF;
   position: relative;
   left: 10%;
-}
-/* Style the tab buttons */
-.contentlink {
-  background-color: purple;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-/* Change background color of buttons on hover */
-.contentlink:hover {
-  background-color: yellow;
-  color: black;
-}
-
-/* Set default styles for tab content */
-.content {
-  color: white;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-/* Style each tab content individually */
-#pc {background-color:black;}
-#playstation {background-color:blue;}
-#xbox {background-color:green;}
-#nintendo {background-color:red;}
-
-/******************************************************/
-
-/*    BEGINING    */
-
-body {
-
 }
 
 #SearchBar {
@@ -56,33 +19,11 @@ body {
   border: 1px solid black;
 }
 
-.TopNav {
-  float: right;
-}
-
-.NavLink2 {
-  color: #B600FF;
-}
-
-
-.fa:hover {
-  color: yellow;
-}
-
-
-
-#image {
-  width: 500px;
-  height: 400px;
-}
-
 .search {
   background-color: purple;
   color: white;
   padding: 8px 25px;
-
 }
-
 #login {
   position: absolute;
   top: 3%;
@@ -106,6 +47,52 @@ body {
   color: black;
 }
 
+.TopNav {
+  float: right;
+}
+
+.NavLink {
+  color: #B600FF;
+}
+.fa:hover {
+  color: yellow;
+}
+
+/************************************************************/
+  /*  PAGE READER */
+
+.contentlink {
+  background-color: purple;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.contentlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.content {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#pc {background-color:black;}
+#playstation {background-color:blue;}
+#xbox {background-color:green;}
+#nintendo {background-color:red;}
+
+/****************************************************************/
+/*  GAMES */
+
 .topGames {
   width: 200px;
   height: 200px;
@@ -128,6 +115,16 @@ h1, p, td {
   color: white;
   text-align: justify;
   padding: 0px 5px;
+}
+
+/***************************************************************/
+  /*  FOOTER  */
+  
+#footer {
+  text-align: center;
+}
+footer {
+  text-align: center;
 }
 
 hr {
