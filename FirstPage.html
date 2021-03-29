@@ -14,27 +14,27 @@
 
 		<script>
 			function openPlataformas(platName, elmnt, color) {
-  				// Hide all elements with class="content" by default */
+ 
   				var i, content, contentlink;
   				content = document.getElementsByClassName("content");
   				for (i = 0; i < content.length; i++) {
    				content[i].style.display = "none";
   				}
 
-  				// Remove the background color of all contentlink/buttons
+
   				contentlink = document.getElementsByClassName("contentlink");
   				for (i = 0; i < contentlink.length; i++) {
     			contentlink[i].style.backgroundColor = "";
   				}
 
-  				// Show the specific tab content
+
   				document.getElementById(platName).style.display = "block";
 
-  				// Add the specific color to the button used to open the tab content
+
   				elmnt.style.backgroundColor = color;
 				}
 
-				// Get the element with id="defaultOpen" and click on it
+
 				document.getElementById("defaultOpen").click();
 
 

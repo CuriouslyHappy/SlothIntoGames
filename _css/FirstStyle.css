@@ -21,6 +21,7 @@ body {
 
 .search {
   background-color: purple;
+  cursor: pointer;
   color: white;
   padding: 8px 25px;
 }
