@@ -1,2 +1,2 @@
 # SlothIntoGames
-It's a site I'm making for learning and making my web develop skills better.
+It is a site I'm making for learning html, css and javascript. And for making my web develop skills better.
