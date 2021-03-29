@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 	<head>
@@ -42,33 +41,30 @@
 
 	<body>
 		
-		<h2>Welcome new player</h2>
-		<h3>Generate your character</h3>
-		<div>
-		<form name="cadastrouser" method="post" action="FirstPage.html">
-		<h4>*Name:
-			<input name="nome" type="text" size="25" maxlenght="30" required />
-		</h4>
-		<h4 id="lvl">*Level:
-			<span id="lvlh">Put your age here</span>
-			<input type="date" name="idade" required />
-		</h4>
-		<h4>*MailBox:
-			<input type="text" name="email" size="25" maxlenght="50" required />
-		</h4>
+		<h1 style="color: white;">Welcome new player</h1>
+		<h2>Generate your character</h2>
 
-		<h4>*Secret Key:
+		<div>
+
+		<form name="cadastrouser" method="post" action="FirstPage.html">
+		<h3>*Name:</h3>
+			<input name="nome" type="text" size="25" maxlenght="30" required />
+		<h3 id="lvl">*Level:
+			<span id="lvlh">Put your age here</span> </h3>
+			<input type="date" name="idade" required />
+		<h3>*MailBox:</h3>
+			<input type="text" name="email" size="25" maxlenght="50" required />
+		<h3>*Secret Key:</h3>
 			<input type="password" name="senha" size="25" maxlenght="30" required />
-		</h4>
 		
-		<h4>Sex:<br>
+		<h3>Sex:<br>
 			<input type="radio" name="sexo" value="masc">Male<br>
 			<input type="radio" name="sexo" value="fem">Female<br>
-		</h4>
+		</h3>
 
-		<h3>What does your character likes?</h3>
+		<h2>What does your character likes?</h2>
 
-		<h4>Favorite platform:</h4>
+		<h3>Favorite platform:</h3>
 			<select name="preference">
 				<option>PC</option>
 				<option>Playstation</option>
@@ -76,7 +72,7 @@
 				<option>Nintendo</option>
 			</select>
 
-		<h4>Platforms you like:<br>
+		<h3>Platforms you like:<h3>
 			<input type="checkbox" name="platform" value="pc">PC<br>
 			<input type="checkbox" name="platform" value="ps3">PS3<br>
 			<input type="checkbox" name="platform" value="ps4">PS4<br>
@@ -85,16 +81,16 @@
 			<input type="checkbox" name="platform" value="xboxs">Xbox S<br>
 			<input type="checkbox" name="platform" value="niswith">Nintendo Switch<br>
 			<input type="checkbox" name="platform" value="mobile">Mobile<br>
-		</h4>
+		</h3>
 		
-		<h4>
+		<h3>
 			<input type="submit" value="Submit" onclick="return validaCadastro()"/>
 			<input type="reset" value="Return" onclick="history.back()" />
-		</h4>
+		</h3>
 
 		<hr style="width: 99%;">
 
-		<h5 style="color: red;">* Indicate required fields.</h5>
+		<h4 style="color: red;">* Indicate required fields.</h4>
 
 
 		</form>
