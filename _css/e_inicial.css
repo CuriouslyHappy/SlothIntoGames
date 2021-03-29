@@ -114,16 +114,20 @@ body {
 .news {
   float: right;
   position: relative;
-  top: 50px;
+  top: 10px;
   padding: 20px 2px;
   border: 3px solid white;
   border-radius: 3em;
+  width: 300px;
+  height: 100%;
   color: white;
   background-color: purple;
 }
 
 h1, p, td {
   color: white;
+  text-align: justify;
+  padding: 0px 5px;
 }
 
 hr {
