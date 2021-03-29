@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Inicio Site</title>
+		<link rel="stylesheet" type="text/css" href="_css/e_inicial.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script>
+			function openPlataformas(platName, elmnt, color) {
+  				// Hide all elements with class="content" by default */
+  				var i, content, contentlink;
+  				content = document.getElementsByClassName("content");
+  				for (i = 0; i < content.length; i++) {
+   				content[i].style.display = "none";
+  				}
+
+  				// Remove the background color of all contentlink/buttons
+  				contentlink = document.getElementsByClassName("contentlink");
+  				for (i = 0; i < contentlink.length; i++) {
+    			contentlink[i].style.backgroundColor = "";
+  				}
+
+  				// Show the specific tab content
+  				document.getElementById(platName).style.display = "block";
+
+  				// Add the specific color to the button used to open the tab content
+  				elmnt.style.backgroundColor = color;
+				}
+
+				// Get the element with id="defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+
+
+			</script>
+
+</head>
+
+<body>
+
+	<a style="float: left; padding: 0px 10px;" href="a_inicial.html"> <img src="_images/sloth.jpg" width="100" height="100"></a>
+	<h1 id="title">Sloth Into Games</h1>
+	<input id="SearchBar" type="text" name="busca" placeholder="Browser here!">
+	<button class="search" onclick="searchingStuff ('busca')">Search</button>
+
+	<a id="login" href="">Log in</a>
+	<a id="signin" href="">Sign up</a>
+
+		<div class="TopNav">
+
+		<a class="NavLink2" href=""><i class="fa fa-heart" style="font-size: 36px; margin-right: 25px;"></i></a>
+		<a class="NavLink2" href=""><i class="fa fa-shopping-cart" style="font-size:36px; margin-right: 25px;"></i></a>
+		<a class="NavLink2" href=""><i class="fa fa-user-circle" style="font-size:36px; margin-right: 25px;"></i></a>
+
+	</div>
+
+
+	<div id="pc" class="content">
+		<h1>PC</h1>
+	<p>Here you can find some information about computers for games and what you can find in the game worlds for PC</p>
+	</div>
+
+	<div id="playstation" class="content">
+		<h1>Playstation</h1>
+		<p>As melhores novidades sobre todos os modelos do playstation estão disponiveis aqui, venha disfrutar desse console maravilhoso.</p>
+	</div>
+
+	<div id="xbox" class="content">
+		<h1>Xbox</h1>
+		<p>Todas as informações mais recentes sobre os liXoBox estão aqui, só olha se tudo quiser mesmo af.</p>
+	</div>
+
+	<div id="nintendo" class="content">
+		<h1>Nintendo</h1>
+		<p>Nintendo possui uma váriedade de consoles bem diversificados, aqui você vai achar algumas informações focadas neles, como informações sobre o mais novo Nintendo Switch, Switch Lite, Wii U e até o clássico e meu favorito, Super Nintendo.</p>
+	</div>
+
+	<button class="contentlink" onclick="openPlataformas('pc', this, '#2C2C2C')" id="defaultOpen">PC</button>
+	<button class="contentlink" onclick="openPlataformas('playstation', this, 'blue')">Playstation</button>
+	<button class="contentlink" onclick="openPlataformas('xbox', this, 'green')">Xbox</button>
+	<button class="contentlink" onclick="openPlataformas('nintendo', this, 'red')">Nintendo</button>
+
+	<br>
+	<br>
+	<hr>
+
+	<div class="news">
+		<h1>Doom News:</h1>
+		<p>Doom Eternal: The Ancient God Part 2 is coming soon,<br>be preperad to die! In this new mod you will have the<br>power of the gods to kill all demons around, be sure<br>to have your music on maximun volume!</p>
+	</div>
+
+	<h1 align="center">TOP GAMES</h1>
+	<table>
+		<tr>
+			<td><img class="topGames" src="_images/doom.jpg"></td>
+			<td>Experience the ultimate combination of speed and power with the next leap in push-forward, first-person combat. As the Doom Slayer, return in Doom Eternal to take your vengeance against the forces of Hell.</td>
+		</tr>
+
+	</table>
+
+<br>
+<hr>
+<br>
+
+	<div class="news">
+		<h1>Minecraft News:</h1>
+		<p>With the new minecraft dungeons you can play an awesome<br>adventure with your friends, it will be an expierence<br>like you never had before.</p>
+	</div>
+	<table>
+		<tr>
+			<td><img class="topGames" src="_images/minecraft.png"></td>
+			<td>Minecraft is a survival sandbox game created by Markus "Notch" Persson, later developed and published by Mohjang Studios, whose intellectual property was obteined by Microsoft in 2014. Is a game where you have to collect resourses to survive in the middle of nowhere, with only cows, pigs, chickens, and other animals. And, of course, a lot of monsters, like zombies and spiders.</td>
+		</tr>
+
+	</table>
+
+	<br>
+	<br>
+
+	<hr>
+
+<p align="center">Website created by Júlia Nunes Tavares</p>
+
+</body>
+
+</html>

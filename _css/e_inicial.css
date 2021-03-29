@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+}
+
+#title {
+  color: #B600FF;
+  position: relative;
+  left: 10%;
+}
+/* Style the tab buttons */
+.contentlink {
+  background-color: purple;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.contentlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/* Set default styles for tab content */
+.content {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */
+#pc {background-color:black;}
+#playstation {background-color:blue;}
+#xbox {background-color:green;}
+#nintendo {background-color:red;}
+
+/******************************************************/
+
+/*    BEGINING    */
+
+body {
+
+}
+
+#SearchBar {
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.TopNav {
+  float: right;
+}
+
+.NavLink2 {
+  color: #B600FF;
+}
+
+
+.fa:hover {
+  color: yellow;
+}
+
+
+
+#image {
+  width: 500px;
+  height: 400px;
+}
+
+.search {
+  background-color: purple;
+  color: white;
+  padding: 8px 25px;
+
+}
+
+#login {
+  position: absolute;
+  top: 3%;
+  left: 82%;
+  background-color: purple;
+  color: white;
+  padding: 8px 25px;
+}
+
+#signin {
+  position: absolute;
+  top: 3%;
+  left: 91%;
+  background-color: purple;
+  color: white;
+  padding: 8px 25px;
+}
+
+#login:hover, #signin:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.topGames {
+  width: 200px;
+  height: 200px;
+}
+
+.news {
+  float: right;
+  position: relative;
+  top: 50px;
+  padding: 20px 2px;
+  border: 3px solid white;
+  border-radius: 3em;
+  color: white;
+  background-color: purple;
+}
+
+h1, p, td {
+  color: white;
+}
+
+hr {
+  border-top: 2px solid #B600FF;
+}
