@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+}
+
+h3 {
+	background-color: #B600FF;
+	width: 98%;
+	color: white;
+	padding: 8px 5px;
+}
+
+p, h2, h4 {
+	color: white;
+	width: 100%;
+	padding: 8px 16px;
+	margin: 2px 0;
+	border: none;
+	border-radius: 4px;
+}
+
+#lvl #lvlh {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  opacity: 0.8;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#lvl:hover #lvlh {
+	visibility: visible;
+}
+
+input[type=text], input[type=password] {
+	width: 60%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer
+}
+
+input[type=reset], input[type=submit] {
+	width: 98%;
+	background-color: purple;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

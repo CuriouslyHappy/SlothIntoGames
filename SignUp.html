@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> Sign Up Page </title>
+		<link rel="stylesheet" href="_css/SignUp.css">
+
+		<script>
+	function validaCadastro() {
+
+			if (cadastrouser.nome.value=="") {
+				alert("'Name' is obrigatory.");
+				cadastrouser.nome.focus();
+				return false;
+			}
+			if (cadastrouser.idade.value=="") {
+				alert("'Level' is obrigatory.");
+				cadastrouser.idade.focus();
+				return false;
+			}
+			if (cadastrouser.email.value=="") {
+				alert("'MailBox' is obrigatory.");
+				cadastrouser.email.focus();
+				return false;
+			}
+			if (cadastrouser.senha.value=="") {
+				alert("'Secret Key' is obrigatory.");
+				cadastrouser.senha.focus();
+				return false;
+			}
+
+			alert("Account signed successfully.");
+	}
+
+
+		</script>
+
+
+	</head>
+
+	<body>
+		
+		<h2>Welcome new player</h2>
+		<h3>Generate your character</h3>
+		<div>
+		<form name="cadastrouser" method="post" action="FirstPage.html">
+		<h4>*Name:
+			<input name="nome" type="text" size="25" maxlenght="30" required />
+		</h4>
+		<h4 id="lvl">*Level:
+			<span id="lvlh">Put your age here</span>
+			<input type="date" name="idade" required />
+		</h4>
+		<h4>*MailBox:
+			<input type="text" name="email" size="25" maxlenght="50" required />
+		</h4>
+
+		<h4>*Secret Key:
+			<input type="password" name="senha" size="25" maxlenght="30" required />
+		</h4>
+		
+		<h4>Sex:<br>
+			<input type="radio" name="sexo" value="masc">Male<br>
+			<input type="radio" name="sexo" value="fem">Female<br>
+		</h4>
+
+		<h3>What does your character likes?</h3>
+
+		<h4>Favorite platform:</h4>
+			<select name="preference">
+				<option>PC</option>
+				<option>Playstation</option>
+				<option>Xbox</option>
+				<option>Nintendo</option>
+			</select>
+
+		<h4>Platforms you like:<br>
+			<input type="checkbox" name="platform" value="pc">PC<br>
+			<input type="checkbox" name="platform" value="ps3">PS3<br>
+			<input type="checkbox" name="platform" value="ps4">PS4<br>
+			<input type="checkbox" name="platform" value="ps5">PS5<br>
+			<input type="checkbox" name="platform" value="xbox1">Xbox One<br>
+			<input type="checkbox" name="platform" value="xboxs">Xbox S<br>
+			<input type="checkbox" name="platform" value="niswith">Nintendo Switch<br>
+			<input type="checkbox" name="platform" value="mobile">Mobile<br>
+		</h4>
+		
+		<h4>
+			<input type="submit" value="Submit" onclick="return validaCadastro()"/>
+			<input type="reset" value="Return" onclick="history.back()" />
+		</h4>
+
+		<hr style="width: 99%;">
+
+		<h5 style="color: red;">* Indicate required fields.</h5>
+
+
+		</form>
+		</div>
+
+	</body>
+
+</html>
