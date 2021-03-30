@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #151515;
 }
 
 h2 {
@@ -35,9 +35,21 @@ p, h3, h4 {
 	visibility: visible;
 }
 
+#level {
+	position: absolute;
+	top: 150px;
+	left: 850px;
+}
+
+#sex {
+	position: absolute;
+	top: 250px;
+	left: 850px;
+}
+
 input[type=text], input[type=password] {
 	width: 50%;
-	padding: 12px 20px;
+	padding: 12px 50px;
 	margin: 8px 0;
 	display: inline-block;
 	border: 1px solid #ccc;
