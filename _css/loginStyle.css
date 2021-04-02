@@ -1,0 +1,50 @@
+body {
+	background-color: gray;
+}
+
+#sloth {
+	position: absolute;
+	top: 20%;
+	left: 48%;
+	width: 100px;
+	height: 100px;
+}
+	
+.middle {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 20%;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+input[type=text], input[type=password] {
+	width: 90%;
+	padding: 12px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit], input[type=reset] {
+
+}
+
+#idontknow {
+	border: 3px solid black;
+}
+
+#bellowMiddle {
+	position: absolute;
+	top: 80%;
+	left: 45%;
+}
+
+#join {
+	position: absolute;
+	left: 35%;
+}
