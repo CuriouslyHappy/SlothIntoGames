@@ -8,25 +8,27 @@
 
 </head>
 
-<body>
+<body style="background-image: url(_images/loginBackground.jpg);">
 
 	<img id="sloth" src="_images/sloth.jpg">
 
 	<div class="middle">
+		<form name="loginUser" action="/action_page.php">
 
-		<p>MailBox:</p>
-		<input type="text" name="loginEmail" placeholder="Ex.:joseff@gmail.com">
-		<p>Password:</p>
-		<input type="password" name="loginPassword">
-		<input type="submit" value="Confirm" onclick="history.back()">
-		<input type="reset" value="Return" onclick="history.back()">
-		
+			<p>MailBox:</p>
+			<input type="text" name="loginEmail" placeholder="Ex.:joseff@gmail.com">
+			<p>Password:</p>
+			<input type="password" name="loginPassword">
+			<input type="submit" value="Confirm" onclick="history.back()">
+			<input type="reset" value="Return" onclick="history.back()">
+
+		</form>
 	</div>
 
 
 	<div id="bellowMiddle">
 		
-		<p>What? You're not from here?</p>
+		<p>Wait. You're not from here?</p>
 		<a id="join" href="SignUp.html">JOIN US</a>
 
 	</div>

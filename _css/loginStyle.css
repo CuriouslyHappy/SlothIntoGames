@@ -1,21 +1,24 @@
 body {
-	background-color: gray;
+	background-image: url('img_girl.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
 
 #sloth {
 	position: absolute;
-	top: 20%;
-	left: 48%;
+	top: 7%;
+	left: 43%;
 	width: 100px;
 	height: 100px;
 }
 	
 .middle {
 	position: absolute;
-	top: 40%;
-	left: 40%;
+	top: 27%;
+	left: 35%;
 	width: 20%;
-	border: 3px solid black;
+	border: 3px solid white;
 	border-radius: 10px;
 	padding: 10px 20px;
 }
@@ -40,11 +43,19 @@ input[type=submit], input[type=reset] {
 
 #bellowMiddle {
 	position: absolute;
-	top: 80%;
-	left: 45%;
+	top: 67%;
+	left: 40%;
 }
 
 #join {
 	position: absolute;
-	left: 35%;
+	left: 32%;
+}
+
+p {
+	color: white;
+}
+
+a {
+	color: #00FBFF;
 }

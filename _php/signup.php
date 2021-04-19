@@ -47,7 +47,7 @@
 
 		<div>
 
-		<form name="cadastroUser" method="post" action="myAccount.php" onsubmit="validaCadastro()">
+		<form name="cadastroUser" method="post" action="account.php" onsubmit="validaCadastro()">
 		<h3>*Name:</h3>
 			<input name="nome" type="text" placeholder="Ex.: Billy Johnson" size="25" maxlenght="30" required />
 		<div id="level">

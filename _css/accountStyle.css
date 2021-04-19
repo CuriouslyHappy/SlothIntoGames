@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+}
+
+h1, h4, p {
+	color: white;
+}
+
+hr {
+	border-top: 2px solid #B600FF;
+}
+
+.user {
+	position: absolute;
+	left: 5%;
+}
